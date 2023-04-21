@@ -1,3 +1,5 @@
+import extension from "./extension2.png";
+
 import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -20,6 +22,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import finance from "./finance.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -28,8 +31,9 @@ import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import jonco from "./jonco.png"
+import jonco from "./jonco.png";
 import tripguide from "./tripguide.png";
+import lms from "./lms.png";
 
 export {
   logo,
@@ -60,5 +64,8 @@ export {
   carrent,
   jobit,
   tripguide,
-  jonco
+  jonco,
+  lms,
+  finance,
+  extension,
 };

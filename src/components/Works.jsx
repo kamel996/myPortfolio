@@ -34,16 +34,18 @@ const ProjectCard = ({
           />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-7 h-7 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img
-                src={website}
-                alt="Website"
-                className="w-5/5 h-5/5 object-contain"
-              />
-            </div>
+            {source_code_link  && (
+              <div
+                onClick={() => window.open(source_code_link, "_blank")}
+                className="black-gradient w-7 h-7 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <img
+                  src={website}
+                  alt="Website"
+                  className="w-5/5 h-5/5 object-contain"
+                />
+              </div>
+            )}
           </div>
         </div>
 
@@ -73,7 +75,7 @@ const Works = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-secondary text-[20px] max-w-3xl leading-[30px]"
         >
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
@@ -87,6 +89,18 @@ const Works = () => {
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
+      </div>
+      <br />
+      <div className="w-full flex justify-center">
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className="mt-3 text-secondary text-[20px] "
+        >
+          Currently, I am engaged in developing an impressive e-commerce
+          website, Once completed, I plan to embark on an exciting new journey
+          towards building my very own cryptocurrency exchange platform, fueled
+          by my passion for innovation and cutting-edge technology.
+        </motion.p>
       </div>
     </>
   );

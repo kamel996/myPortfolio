@@ -15,6 +15,9 @@ const Contact = () => {
     message: "",
   });
 
+const service_ws7lyks = "service_ws7lyks";
+const rZmNLAiM_m9ihNlio = "rZmNLAiM_m9ihNlio";
+       const  template_iw6ct4e = "template_iw6ct4e"
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
@@ -33,16 +36,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        service_ws7lyks,
+        template_iw6ct4e,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Kamel Nassar",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "kamelnassar2828@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        rZmNLAiM_m9ihNlio
       )
       .then(
         () => {

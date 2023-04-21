@@ -24,6 +24,9 @@ import {
   tripguide,
   threejs,
   jonco,
+  lms,
+  finance,
+  extension
 } from "../assets";
 
 export const navLinks = [
@@ -43,11 +46,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full-Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
@@ -201,12 +204,16 @@ const projects = [
   {
     name: "JONKO MET",
     description:
-      "a top provider of Solar & Safety control films in Lebanon. The site showcases their innovative product, which boosts glass performance in homes,",
+      "A top provider of Solar & Safety control films in Lebanon. The site showcases their innovative product, which boosts glass performance in homes,offices and cars.  ",
 
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "dark-green-text-gradient",
       },
       {
         name: "mongodb",
@@ -221,37 +228,47 @@ const projects = [
     source_code_link: "https://joncomet.com/",
   },
   {
-    name: "Job IT",
+    name: "LMS",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An LMS with advanced course management and online collaboration features, delivering a comprehensive learning experience for students and educators.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
+      },
+      {
+        name: "laravel",
+        color: "red-text-gradient",
       },
       {
         name: "restapi",
         color: "green-text-gradient",
       },
+
       {
         name: "scss",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: lms,
   },
+
   {
-    name: "Trip Guide",
+    name: "Financial app",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A financial app helps track incomes, expenses, and profit goals. It lets admins enter costs/earnings, categorize them, and display graphs/reports.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "express",
+        color: "green-text-gradient",
+      },
+
+      {
+        name: "docker",
         color: "green-text-gradient",
       },
       {
@@ -259,8 +276,19 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: finance,
+  },
+  {
+    name: "Chrome extension",
+    description:
+      "With pure JS, built a Chrome extension that saves your current tab or input, you can easily pick up where you left off and streamline your browsing experience.",
+    tags: [
+      {
+        name: "javascript",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: extension,
   },
 ];
 
