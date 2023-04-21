@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: './src/index.js',
+        main: './index.html',
         'react-tilt': './node_modules/react-tilt/src/tilt.js'
       }
     }
