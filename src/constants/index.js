@@ -26,7 +26,10 @@ import {
   jonco,
   lms,
   finance,
-  extension
+  extension,
+  ecommerce,
+  avon,
+  native,
 } from "../assets";
 
 export const navLinks = [
@@ -202,6 +205,53 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Job Seekr",
+    description:
+      " JobSeekr: Connect to job posts and employers effortlessly. Our app integrates multiple job APIs, ensuring a wide range of opportunities at your fingertips.  ",
+
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mobile",
+        color: "green-text-gradient",
+      },
+      {
+        name: "custom-styles",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: native,
+  },
+  {
+    name: "TechTrek",
+    color: "red-text-gradient",
+    description:
+      "TechTrek - Your one-stop destination for all your tech needs. Explore our vast selection of electronics and gadgets for a seamless online shopping experience.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "dark-green-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "red-text-gradient",
+      },
+
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecommerce,
+  },
+  {
     name: "JONKO MET",
     description:
       "A top provider of Solar & Safety control films in Lebanon. The site showcases their innovative product, which boosts glass performance in homes,offices and cars.  ",
@@ -226,6 +276,32 @@ const projects = [
     ],
     image: jonco,
     source_code_link: "https://joncomet.com/",
+  },
+  {
+    name: "Avon Beauty",
+    description:
+      "Discover a world of beauty at our cosmetics ecommerce website. Explore a wide range of premium products, shop conveniently, and enhance your natural radiance.  ",
+
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "dark-green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: avon,
+    source_code_link: "https://avon-skin-care.netlify.app",
   },
   {
     name: "LMS",

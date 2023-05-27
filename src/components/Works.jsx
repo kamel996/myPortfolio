@@ -1,5 +1,5 @@
 import React from "react";
-import {Tilt} from 'react-tilt/';
+import { Tilt } from "react-tilt/";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -31,18 +31,19 @@ const ProjectCard = ({
             src={image}
             alt="project_image"
             className="w-full h-full object-cover rounded-2xl"
+            style={{ objectFit: "contain" }}
           />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            {source_code_link  && (
+            {source_code_link && (
               <div
                 onClick={() => window.open(source_code_link, "_blank")}
-                className="black-gradient w-7 h-7 rounded-full flex justify-center items-center cursor-pointer"
+                className="black-gradient w-8 h-5 rounded-full flex justify-center items-center cursor-pointer"
               >
                 <img
                   src={website}
                   alt="Website"
-                  className="w-5/5 h-5/5 object-contain"
+                  className="w-1/1 h-5/5 object-contain"
                 />
               </div>
             )}

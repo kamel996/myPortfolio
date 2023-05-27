@@ -1,5 +1,7 @@
 import extension from "./extension2.png";
-
+import ecommerce from "./e-commerce.png"
+import native from "./native.jpg"
+import avon from "./Avon.png"
 import logo from "./klogo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -68,4 +70,7 @@ export {
   lms,
   finance,
   extension,
+  ecommerce,
+  native,
+  avon,
 };
