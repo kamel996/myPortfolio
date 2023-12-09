@@ -97,10 +97,10 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[20px] "
         >
-          Currently, I am engaged in developing an impressive e-commerce
-          website, Once completed, I plan to embark on an exciting new journey
-          towards building my very own cryptocurrency exchange platform, fueled
-          by my passion for innovation and cutting-edge technology.
+          Currently, I am deeply immersed in the development of a scalable and
+          expandable POS (Point of Sale) system within the company I work for.
+          Simultaneously, I am also dedicating my efforts to a freelance
+          e-commerce project.
         </motion.p>
       </div>
     </>

@@ -1,7 +1,7 @@
 import extension from "./extension2.png";
-import ecommerce from "./e-commerce.png"
-import native from "./native.jpg"
-import avon from "./Avon.png"
+import ecommerce from "./e-commerce.png";
+import native from "./native.jpg";
+import avon from "./Avon.png";
 import logo from "./klogo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -10,6 +10,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import pricetrack from "./pricetrack.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -39,6 +40,7 @@ import lms from "./lms.png";
 
 export {
   logo,
+  pricetrack,
   backend,
   creator,
   mobile,

@@ -1,5 +1,6 @@
 import {
   mobile,
+  pricetrack,
   backend,
   creator,
   web,
@@ -279,13 +280,12 @@ const projects = [
     source_code_link: "https://joncomet.com/",
   },
   {
-    name: "Avon Beauty",
+    name: "Price Track",
     description:
-      "Discover a world of beauty at our cosmetics ecommerce website. Explore a wide range of premium products, shop conveniently, and enhance your natural radiance.  ",
-
+      "A web scraper to track the price of an amazon product and send you email when the price is decreased, a very professional website to track any amazon product u need.",
     tags: [
       {
-        name: "react",
+        name: "next",
         color: "blue-text-gradient",
       },
       {
@@ -297,64 +297,90 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: avon,
-    source_code_link: "https://avon-skin-care.netlify.app",
+    image: pricetrack,
+    source_code_link: "https://pricetrack-three.vercel.app/",
   },
-  {
-    name: "LMS",
-    description:
-      "An LMS with advanced course management and online collaboration features, delivering a comprehensive learning experience for students and educators.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "laravel",
-        color: "red-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
+  // {
+  //   name: "Avon Beauty",
+  //   description:
+  //     "Discover a world of beauty at our cosmetics ecommerce website. Explore a wide range of premium products, shop conveniently, and enhance your natural radiance.  ",
 
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: lms,
-  },
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "node",
+  //       color: "dark-green-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: avon,
+  //   source_code_link: "https://avon-skin-care.netlify.app",
+  // },
+  // {
+  //   name: "LMS",
+  //   description:
+  //     "An LMS with advanced course management and online collaboration features, delivering a comprehensive learning experience for students and educators.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "laravel",
+  //       color: "red-text-gradient",
+  //     },
+  //     {
+  //       name: "restapi",
+  //       color: "green-text-gradient",
+  //     },
 
-  {
-    name: "Financial app",
-    description:
-      "A financial app helps track incomes, expenses, and profit goals. It lets admins enter costs/earnings, categorize them, and display graphs/reports.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "express",
-        color: "green-text-gradient",
-      },
+  //     {
+  //       name: "scss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: lms,
+  // },
 
-      {
-        name: "docker",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: finance,
-  },
+  // {
+  //   name: "Financial app",
+  //   description:
+  //     "A financial app helps track incomes, expenses, and profit goals. It lets admins enter costs/earnings, categorize them, and display graphs/reports.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "express",
+  //       color: "green-text-gradient",
+  //     },
+
+  //     {
+  //       name: "docker",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: finance,
+  // },
   {
     name: "Chrome extension",
     description:
