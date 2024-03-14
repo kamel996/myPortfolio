@@ -29,6 +29,7 @@ import {
   finance,
   extension,
   ecommerce,
+  anime,
   avon,
   native,
 } from "../assets";
@@ -206,6 +207,56 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Anime Vault",
+    description:
+        "A visually captivating Next.js webpage displaying anime images with seamless infinite scroll functionality and robust server-side actions integration.",
+    tags: [
+      {
+        name: "next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "dark-green-text-gradient",
+      },
+      {
+        name: "vercel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: anime,
+    source_code_link: "https://anime-next14-ov26213rn-kamel996.vercel.app/",
+  },
+  {
+    name: "Price Track",
+    description:
+        "A web scraper to track the price of an amazon product and send you email when the price is decreased, a very professional website to track any amazon product u need.",
+    tags: [
+      {
+        name: "next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "dark-green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pricetrack,
+    source_code_link: "https://pricetrack-three.vercel.app/",
+  },
+  {
     name: "Job Seekr",
     description:
       " JobSeekr: Connect to job posts and employers effortlessly. Our app integrates multiple job APIs, ensuring a wide range of opportunities at your fingertips.  ",
@@ -279,31 +330,7 @@ const projects = [
     image: jonco,
     source_code_link: "https://joncomet.com/",
   },
-  {
-    name: "Price Track",
-    description:
-      "A web scraper to track the price of an amazon product and send you email when the price is decreased, a very professional website to track any amazon product u need.",
-    tags: [
-      {
-        name: "next",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "node",
-        color: "dark-green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: pricetrack,
-    source_code_link: "https://pricetrack-three.vercel.app/",
-  },
+
   // {
   //   name: "Avon Beauty",
   //   description:

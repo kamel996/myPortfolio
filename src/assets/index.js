@@ -31,6 +31,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import anime from "./anime.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -40,6 +41,7 @@ import lms from "./lms.png";
 
 export {
   logo,
+  anime,
   pricetrack,
   backend,
   creator,
