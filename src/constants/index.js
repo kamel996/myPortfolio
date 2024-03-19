@@ -30,6 +30,7 @@ import {
   extension,
   ecommerce,
   anime,
+  nativeEcommerce,
   avon,
   native,
 } from "../assets";
@@ -207,6 +208,32 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Basic E-Commerce",
+    description:  "Build a CRUD app with Express for API, Zustand for state, Drizzle ORM, & Postgres for data storage & leverage Zustand for state management and  reactive UI updates.",
+
+
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "drizzle",
+        color: "dark-green-text-gradient",
+      },
+      {
+        name: "zustand",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nativeEcommerce,
+   
+  },
+  {
     name: "Anime Vault",
     description:
         "A visually captivating Next.js webpage displaying anime images with seamless infinite scroll functionality and robust server-side actions integration.",
@@ -220,11 +247,11 @@ const projects = [
         color: "dark-green-text-gradient",
       },
       {
-        name: "vercel",
+        name: "Vercel",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],

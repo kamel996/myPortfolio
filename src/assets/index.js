@@ -11,6 +11,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import pricetrack from "./pricetrack.png";
+import nativeEcommerce from "./native-ecommerce.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -77,4 +78,5 @@ export {
   ecommerce,
   native,
   avon,
+  nativeEcommerce
 };
