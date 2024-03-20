@@ -12,7 +12,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import pricetrack from "./pricetrack.png";
 import nativeEcommerce from "./native-ecommerce.png"
-
+import springReactMovie from "./springReactMovie.png"
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -78,5 +78,6 @@ export {
   ecommerce,
   native,
   avon,
-  nativeEcommerce
+  nativeEcommerce,
+  springReactMovie
 };

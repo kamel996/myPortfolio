@@ -33,6 +33,7 @@ import {
   nativeEcommerce,
   avon,
   native,
+  springReactMovie
 } from "../assets";
 
 export const navLinks = [
@@ -211,7 +212,6 @@ const projects = [
     name: "Mobile E-Commerce",
     description: "Built an e-commerce mobile app with React Native, Express for API, Drizzle ORM, & Postgres for data storage & leverage Zustand for state management and reactive UI updates.",
 
-
     tags: [
       {
         name: "react-native",
@@ -231,6 +231,32 @@ const projects = [
       },
     ],
     image: nativeEcommerce,
+   
+  },
+  {
+    name: "MovieSphere",
+    description: "Dive into a cinematic universe where users explore, discover, and review films across genres and eras, creating an immersive movie-watching experience .",
+
+    tags: [
+      {
+        name: "spring-boot",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "stream",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: springReactMovie,
+    source_code_link: "https://master--stunning-otter-7c5c97.netlify.app/",
    
   },
   {
