@@ -208,8 +208,8 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Basic E-Commerce",
-    description:  "Build a CRUD app with Express for API, Zustand for state, Drizzle ORM, & Postgres for data storage & leverage Zustand for state management and  reactive UI updates.",
+    name: "Mobile E-Commerce",
+    description: "Built an e-commerce mobile app with React Native, Express for API, Drizzle ORM, & Postgres for data storage & leverage Zustand for state management and reactive UI updates.",
 
 
     tags: [
